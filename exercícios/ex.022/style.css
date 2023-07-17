@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    background-color: red;
+    background: url(https://www.ofutebolero.com.br/__export/1662135150678/sites/elfutboleromx/img/2022/09/02/bandeiras-torcida-flamengo-fumaca.jpg_1319508801.jpg);
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    
+}
