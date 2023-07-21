@@ -13,7 +13,7 @@
         }
 
         main{
-            background-color: rgb(142, 184, 142);
+            background-color:white;
             width: 520px;
             margin:auto ;
             height: 100vh;
@@ -24,6 +24,7 @@
 
         h1{
             text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         table{
@@ -35,7 +36,7 @@
         }
 
         td{
-            background-color: white;
+            
         }
 
         td,th{
@@ -46,6 +47,10 @@
 
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+
         thead,tfoot{
             background-color: gray;
             color: white;
@@ -54,13 +59,13 @@
 </head>
 <body>
     <main>
-        <h1>Uso de Tabelas Grandes</h1>
+        <h1>Populacão Brasileira</h1>
     
         <table>
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
                 </tr>
             </thead>
             <tbody>
