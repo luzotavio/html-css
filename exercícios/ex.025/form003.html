@@ -10,7 +10,19 @@
     <form action="aaa.php" method="get"></form>
     <p>
         <label for="inome">Nome</label>
-        <input type="text" name="nome" id="inome">
+        <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+    </p>
+    <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" max="10" min="0">
+    </p>
+    <p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </p>
 </body>
 </html>
