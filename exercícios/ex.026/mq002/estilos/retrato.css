@@ -1,7 +1,6 @@
-@charset "UTF-8"
-
-/*aparelho em pé */
+@charset "UTF-8";
 
 body{
-    background-color: yellow;
+  background-image: url(../imagens/cev-portrait.jpg);
+  background-repeat: center bottom;
 }
